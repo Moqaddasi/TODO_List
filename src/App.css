@@ -9,7 +9,7 @@ body{
   border-radius: 10px;
 }
 #to-do input{
-  background-color:#577D99;
+  background-color:whitesmoke;
   border: 0;
   width: 200px;
   height: 50px;
@@ -17,10 +17,10 @@ body{
   padding: 0 20px;
   font-size:18px;
   border-radius: 5px;
-  color: white;
+  color: grey;
 }
 #to-do input::placeholder{
-  color: white;
+  color: grey;
   font-size: large;
   text-align: center;
 }
@@ -50,5 +50,7 @@ body{
   background-color: #f1e470;
   border-radius: 5px;
   text-align: center;
+  color:gray;
+  
 
 }
