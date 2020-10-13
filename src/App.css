@@ -1,12 +1,13 @@
 body{
-  background-color: #6CC2BD;
+  background-color: #FFF;
 }
 .App{
-  background-color: #F67E7D;
+  background-color: #FFF;
   min-height: 500px;
   width: 400px;
   margin: 40px auto;
   border-radius: 10px;
+  box-shadow: 1px 0px 3px  gray ;
 }
 #to-do input{
   background-color:whitesmoke;
@@ -32,7 +33,7 @@ body{
   width: 80px;
   border-radius: 10px;
   border: 0;
-  background-color: #78769C;
+  background-color: #FF4F00;
   cursor: pointer;
   color: white;
   font-weight: bolder;
@@ -41,16 +42,30 @@ body{
   outline: none;
 }
 #to-do button:hover {
-  background-color: #52C6CD;
+  background-color: #FFA300;
 }
 
 .list{
+  color: #FF4F00;
   margin: 10px;
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 200px;
+  text-align: left;
+   border: 1px #FF4F00 solid;
+}
+.list p{
   padding: 10px;
-  background-color: #f1e470;
-  border-radius: 5px;
-  text-align: center;
-  color:gray;
-  
-
+  position: relative;
+  color: #FF4F00;
+}
+.list p span{
+  position: absolute;
+  right: 10px;
+}
+.list p span:hover{
+  color: #FFA300;
+}
+.faicons{
+  font-size: larger;
 }

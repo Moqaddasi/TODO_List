@@ -1,0 +1,14 @@
+.faicons{
+    display: block;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #FF4F00;
+    font-size: 18px;
+}
+.list p input:focus{
+    
+    outline: 1px #FFA300 dashed;
+
+}
