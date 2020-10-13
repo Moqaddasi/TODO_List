@@ -1,11 +1,20 @@
 .faicons{
     display: block;
 }
+.list p {
+    top: -18px;
+}
 .list p input{
     background-color: transparent;
     border: 0;
-    color: #FF4F00;
+    color: #FFA300;
     font-size: 18px;
+    font-weight: 600 ;
+}
+.list p span{
+    left: 330px;
+    bottom: 12px;
+    font-size: 16px;
 }
 .list p input:focus{
     

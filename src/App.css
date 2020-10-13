@@ -3,7 +3,7 @@ body{
 }
 .App{
   background-color: #FFF;
-  min-height: 500px;
+  min-height: 500px ;
   width: 400px;
   margin: 40px auto;
   border-radius: 10px;
@@ -46,14 +46,16 @@ body{
 }
 
 .list{
+  height: 40px;
   color: #FF4F00;
-  margin: 10px;
+  margin: 13px;
   padding: 2px;
   background-color: #fff;
   border-radius: 200px;
   text-align: left;
-   border: 1px #FF4F00 solid;
-}
+   border: 2px #FFA300 solid;
+   box-shadow: 0  0.1rem .3rem  gray;
+  }
 .list p{
   padding: 10px;
   position: relative;
