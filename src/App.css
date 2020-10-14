@@ -1,6 +1,12 @@
 body{
   background-color: #FFF;
 }
+.header{
+  padding: 10px;
+  margin: -10px;
+  text-align: center;
+  color: #FF4F00;
+}
 .App{
   background-color: #FFF;
   min-height: 500px ;
